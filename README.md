@@ -4,7 +4,7 @@ Projeto
 Crie uma agenda de contatos, onde pode ser registrados vários contatos e seus dados. A aplicação terá o seguinte formato:
  
 ##################
-##### AGENDA #####
+`##### AGENDA #####`
 ##################
 >>>> Contatos <<<<
 Id | Nome
@@ -30,11 +30,12 @@ public class Telefone {
     private String ddd;
     private Long numero;
 }
-Requisitos Não-Funcionais
-Utilizar arquivos de texto para armazenar os dados (Simular base de dados)
-/
 
-Requisitos Funcionais
-RN1: Não é permitido armazenar contatos com o mesmo id;
-RN2: Não é permitido armazenar contatos com telefones ja cadastrados; 
-RN3: Para realizar as ações, será necessário informar o id do contato;
+<h2> Requisitos Não-Funcionais </h2>
+Utilizar arquivos de texto para armazenar os dados (Simular base de dados)
+
+
+<h2> Requisitos Funcionais </h2>
+<p> - `RN1`: Não é permitido armazenar contatos com o mesmo id;</p>
+<p> - `RN2`: Não é permitido armazenar contatos com telefones ja cadastrados;</p>
+<p> - `RN3`: Para realizar as ações, será necessário informar o id do contato;</p>
